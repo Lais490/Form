@@ -1,0 +1,161 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+body { background-color: #EFEFEF;}
+
+fieldset {border: none;
+margin: 0px 64px 30px 64px;}
+
+header { background-color: #535971;
+color: #FFFF;
+width: 100%;
+height: 436px;
+padding-top: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.title {margin-bottom: 18px;
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+}
+
+h1{ font-size: 48px ;
+    font-family: 'Staatliches', cursive;
+    margin-bottom: 18px;
+   
+    
+
+}
+
+header h3 {font-size:20px ;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 18px;
+   
+}
+
+
+.container {width: 750px;
+height: 1100px;
+border-radius: 8px 8px 0px 0px;
+background-color: #FFFF;
+margin: -110px auto 366px;
+padding-top: 64px;}
+
+legend{color: #535971;
+    font-family: 'Staatliches', cursive; 
+font-size: 24px;}
+
+.line{ border: 1px solid #E6E6F0;
+width: 622px;
+margin-top: 16px;
+margin-bottom: 36px;}
+
+label{color: #4E4958;
+    font-family: 'Poppins', sans-serif;
+font-size: 14px; }
+
+span {color: #C1BCCC;
+    font-family: 'Poppins', sans-serif;
+font-size: 12px; 
+}
+
+p{color: #535971;
+    font-family: 'Staatliches', cursive; 
+font-size: 20px;
+}
+
+input{height: 56px;
+background-color: #FAFAFC;
+border-radius: 8px 8px 8px 8px;
+border: 1px solid #E6E6F0;
+margin-top: 9px;
+margin-bottom: 16px;}
+
+.first {display: flex;
+gap: 22px;}
+
+.first input {width: 300px;}
+
+.surname{ display: flex;
+    flex-direction: column;}
+
+.name { display: flex;
+        flex-direction: column;
+    }
+
+
+.email { display: flex;
+    flex-direction: column;}
+
+.password{ display: flex;
+    flex-direction: column;}
+
+.teacher { display: flex;
+    flex-direction: column;}
+
+
+    p { margin-bottom: 11px;}
+
+
+
+.hour {display: flex;
+gap: 22px;}
+
+.date input{ width: 300px ;
+padding: 15px;
+color:#535971 ;
+font-family: 'Poppins', sans-serif;
+font-size: 12px;}
+
+.time input{width: 140px;
+    padding: 15px;
+color:#535971 ;
+font-family: 'Poppins', sans-serif;
+font-size: 12px;}
+
+.end input{width: 140px;
+    padding: 15px;
+    color:#535971 ;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;}
+
+.date { display: flex;
+        flex-direction: column;}
+
+.time { display: flex;
+     flex-direction: column;}
+
+.end{ display: flex;
+    flex-direction: column;}
+
+.second{ display: flex;
+    gap: 22px;}
+
+button{ color: #FFFF;
+    font-family: 'Staatliches', cursive; 
+    font-size: 20px;
+background-color: #FF5374;
+width: 608px;
+height: 55px;
+border-radius: 20px 20px 20px 20px;
+border: none;
+margin: 52px 61px 52px 61px ;
+cursor: pointer;
+}
+
+button:hover {background-color: #ee1842;
+transition: 0.5s;
+font-size: 24px;}
+
+
+.footer{ background-color: #535971;
+width: 750px;
+height: 160px;
+border-radius: 0px 0px 8px 8px;
+margin-bottom: 0px;
+
+}
